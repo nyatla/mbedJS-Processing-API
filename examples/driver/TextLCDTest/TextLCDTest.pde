@@ -1,7 +1,7 @@
 import jp.nyatla.mimic.mbedjs.psgapi.driver.*;
 import jp.nyatla.mimic.mbedjs.psgapi.*;
 
-Mcu mcu=new Mcu(this,"192.168.128.39");
+Mcu mcu=new Mcu(this,"10.0.0.2");
 
 TextLCD lcd=new TextLCD(mcu , PinName.p24, PinName.p26,
         PinName.p27, PinName.p28, PinName.p29, PinName.p30,TextLCD.LCD16x2);
