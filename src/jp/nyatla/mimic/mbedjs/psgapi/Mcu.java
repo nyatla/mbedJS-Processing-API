@@ -35,6 +35,12 @@ public class Mcu extends JavaObjectWrapper<jp.nyatla.mimic.mbedjs.javaapi.Mcu>
 		}
 	}	
 	PApplet _parent;
+	/**
+	 * 
+	 * @param i_parent
+	 * @param i_addr
+	 * mbedJSデバイスのアドレス(IPアドレス)、又はmbedJSサービスのURLを指定します。 
+	 */
 	public Mcu(PApplet i_parent,String i_addr)
 	{
 		super(_new(i_addr));
